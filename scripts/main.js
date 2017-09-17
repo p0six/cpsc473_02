@@ -30,7 +30,7 @@ function setDetailsFromThumb(thumbnail) {
 
 function addThumbClickHandler(thumb) {
   'use strict';
-  thumb.addEventListener('click', function (event) {
+  thumb.addEventListener('click', function(event) {
     event.preventDefault();
     setDetailsFromThumb(thumb);
     if (thumb.getAttribute('data-image-url') == TACOCAT) {
