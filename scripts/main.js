@@ -58,7 +58,7 @@ function randomTacoCat(thumbnails) {
   'use strict';
   var randomSelection = Math.floor(Math.random() * thumbnails.length) + 1;
   TACOCAT_THUMBNAIL_BACKUP = thumbnails[randomSelection].getAttribute('data-image-url');
-  thumbnails[randomSelection].setAttribute('data-image-url', 'https://i.imgur.com/BAJirn6.png');
+  thumbnails[randomSelection].setAttribute('data-image-url', TACOCAT);
 }
 
 initializeEvents();
